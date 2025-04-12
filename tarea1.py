@@ -16,5 +16,7 @@ web_element.send_keys("SR@TEST.COM")
 time.sleep(2)
 web_element = driver.find_element(By.ID, "phone")
 web_element.send_keys("1234567890")
+web_element = driver.find_element(By.ID, "textarea")
+web_element.send_keys("esto es un nuevo cambio. ")
 
 time.sleep(15)
